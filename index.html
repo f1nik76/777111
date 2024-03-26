@@ -39,7 +39,7 @@
   <body data-bs-spy="scroll" data-bs-target="#navScroll">
     <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
       <div class="container">
-        <a class="d-flex flex-row align-items-center navbar-brand pe-5" href="/">
+        <a class="d-flex flex-row align-items-center navbar-brand" href="/">
           <img class="" src="img/logo.png" width="80px" alt="logo"/>
             <div class="d-flex flex-column align-items-center">
               <div class=""><span class="ms-1 fs-3 fw-bold">Грузовое такси №1</span></div>
@@ -640,7 +640,7 @@
     <script>
       let scrollpos = window.scrollY;
       const header = document.querySelector(".navbar");
-      const header_height = header.offsetHeight;
+      const header_height = header.offsetHeight - 152;
 
       const add_class_on_scroll = () =>
         header.classList.add("scrolled", "shadow-sm");
