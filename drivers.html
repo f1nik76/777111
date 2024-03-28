@@ -115,8 +115,8 @@
             class="col-12 col-lg-8 mt-0 h-100 position-absolute top-0 end-0 bg-cover"
             data-aos="fade-left"
             style="
-              background-image: url();
-              background-size: 40% auto;
+              background-image: url(/img/2.jpg);
+              background-size: 100% auto;
               background-repeat: no-repeat;
               background-position: right 40% bottom 0;
             "
@@ -124,9 +124,27 @@
           <div class="row">
             <div class="col-lg-7 py-vh-6 mx-5 position-relative" data-aos="fade-right">
               
-              1. Памятка водителю<br>
-              2. Скачать приложение taxsee<br>
-              3. 
+             <!-- Taxsee order form -->
+                <div id="taxsee-form" style="max-width: 600px; margin: 0 auto;"></div>
+                <script type="application/javascript">
+                (function (w, d, n, s) {
+                s = d.createElement('script');s.type = 'text/javascript';s.async = 1;s.src = '//client.taxsee.com/js/embed.form.js?v=1686053533';
+                (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+                w[n]=w[n]||function(p,v){(w[n].p=w[n].p||{})[p]=v};
+                taxsee('id', "yFL33BWu8yOEhqH0C0bV8L74dZv9wv+zXEYVdrp1txy2vSeqmaLkE+0XzhegozWUogK6nuNqYszJKPJ3JY6l3YBHoxQ0cMOR+tPeS585VDA=");
+                taxsee('org', "taxi1");
+                taxsee('theme', "taxsee");
+                taxsee('country', "RU");
+                taxsee('base', 338);
+                taxsee('language', "ru-RU");
+                taxsee('container', "taxsee-form");
+                taxsee('autoresize', true);
+                taxsee('opacity', "1");
+                taxsee('payment', false);
+                taxsee('debug', false);
+                taxsee('withMap', "0");})(window, document, 'taxsee');
+                </script>
+                <!-- /Taxsee order form -->
 
 
             </div>

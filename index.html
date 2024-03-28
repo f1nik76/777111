@@ -331,14 +331,23 @@
 
     <div id="popup-box" class="modal">
       <div class="content">
-          <span class="fs-5">
-              Оставить заявку
-          </span>
+        <div class="m-auto align-items-center">
+              <span class="fs-5">
+                  Оставить заявку на обратный звонок
+              </span>
+              <!-- Создаём форму и указываем её обработчик и метод -->
+              <form action="post.php" method="post" name="form" >
+              <!-- Поле ввода имени -->
+              <input name="name" class="form-control" type="text" placeholder="Ваше имя" />
+              <br>
+              <!-- Поле ввода почты  -->
+              <input name="phone" class="form-control" type="text" placeholder="Ваш телефон" />
+              <br>
+              <!-- Кнопка с надписью «Отправить», которая запускает обработчик формы -->
+              <input class="btn btn-primary rounded-3 shadow-sm" type="submit" value="Отправить" />
+              </form>
           
-          
-          Здесь форма обратной связи для звонка
-          
-
+        </div>
           <a href="#" style=" position: absolute; top: 10px; right: 10px; color: #000000; font-size: 30px; text-decoration: none;">&times;</a>
       </div>
     </div>
