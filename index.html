@@ -13,76 +13,52 @@
     <link rel="icon" type="image/png" sizes="96x96" href="logo.svg" />
     <title>Грузовое такси №1</title>
     <link rel="stylesheet" href="css/theme.css" />
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <style>
-      .btn-orange{
-      background-color: rgb(247, 243, 3);
-      color: hsl(0, 0%, 0%);
+      .btn-orange {
+        background-color: rgb(247, 243, 3);
+        color: hsl(0, 0%, 0%);
       }
-      .btn-orange:hover{
-      background-color: rgb(255, 255, 0);
-      color: hsl(0, 0%, 0%);
+      .btn-orange:hover {
+        background-color: rgb(255, 255, 0);
+        color: hsl(0, 0%, 0%);
       }
-      .btn-orange:active{
-      background-color: rgb(255, 255, 85);
-      color: hsl(0, 0%, 0%);
+      .btn-orange:active {
+        background-color: rgb(255, 255, 85);
+        color: hsl(0, 0%, 0%);
       }
-
-      .box {
-                background-color: black;
-                height: 100vh;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-
-            .box a {
-                padding: 15px;
-                background-color: #fff;
-                border-radius: 3px;
-                text-decoration: none;
-            }
-
-            .modal {
-                position: fixed;
-                inset: 0;
-                background: rgba(126, 126, 126, 0.7);
-                display: none;
-                align-items: center;
-                justify-content: center;
-            }
-
-            .content {
-                position: relative;
-                background: white;
-                padding: 1em 2em;
-                border-radius: 4px;
-            }
-
-            .modal:target {
-                display: flex;
-            }
-
-
-
-
     </style>
-
-
   </head>
 
   <body data-bs-spy="scroll" data-bs-target="#navScroll">
-    <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top bg-light bg-gradient" tabindex="0">
+    <nav
+      id="navScroll"
+      class="navbar navbar-expand-lg navbar-light fixed-top bg-light bg-gradient"
+      tabindex="0"
+    >
       <div class="container">
-        <a class="d-flex flex-row align-items-center navbar-brand " href="index.html">
-          <img class="shadow-sm rounded-circle" src="img/logo.png" width="80px" alt="logo"/>
-            <div class="d-flex flex-column align-items-center">
-              <div class=""><span class="ms-1 fs-3 fw-bold">Грузовое такси №1</span></div>
+        <a
+          class="d-flex flex-row align-items-center navbar-brand"
+          href="index.html"
+        >
+          <img
+            class="shadow-sm rounded-circle"
+            src="img/logo.png"
+            width="80px"
+            alt="logo"
+          />
+          <div class="d-flex flex-column align-items-center">
+            <div class="">
+              <span class="ms-1 fs-3 fw-bold">Грузовое такси №1</span>
             </div>
+          </div>
         </a>
         <button
           class="navbar-toggler"
@@ -96,7 +72,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-6 fw-bolder ">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-6 fw-bolder">
             <!--<li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -135,11 +111,37 @@
               <a class="nav-link" href="contacts.html">Контакты</a>
             </li>
           </ul>
-          <a href="tel:+74852777111" class="link-dark link-secondary fw-bold ">
-            <button class="btn rounded-3 btn-orange btn-m shadow-sm" style="width: 250px;">
-              <span><svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.05 6C15.0268 6.19057 15.9244 6.66826 16.6281 7.37194C17.3318 8.07561 17.8095 8.97326 18 9.95M14.05 2C16.0793 2.22544 17.9716 3.13417 19.4163 4.57701C20.8609 6.01984 21.7721 7.91101 22 9.94M18.5 21C9.93959 21 3 14.0604 3 5.5C3 5.11378 3.01413 4.73086 3.04189 4.35173C3.07375 3.91662 3.08968 3.69907 3.2037 3.50103C3.29814 3.33701 3.4655 3.18146 3.63598 3.09925C3.84181 3 4.08188 3 4.56201 3H7.37932C7.78308 3 7.98496 3 8.15802 3.06645C8.31089 3.12515 8.44701 3.22049 8.55442 3.3441C8.67601 3.48403 8.745 3.67376 8.88299 4.05321L10.0491 7.26005C10.2096 7.70153 10.2899 7.92227 10.2763 8.1317C10.2643 8.31637 10.2012 8.49408 10.0942 8.64506C9.97286 8.81628 9.77145 8.93713 9.36863 9.17882L8 10C9.2019 12.6489 11.3501 14.7999 14 16L14.8212 14.6314C15.0629 14.2285 15.1837 14.0271 15.3549 13.9058C15.5059 13.7988 15.6836 13.7357 15.8683 13.7237C16.0777 13.7101 16.2985 13.7904 16.74 13.9509L19.9468 15.117C20.3262 15.255 20.516 15.324 20.6559 15.4456C20.7795 15.553 20.8749 15.6891 20.9335 15.842C21 16.015 21 16.2169 21 16.6207V19.438C21 19.9181 21 20.1582 20.9007 20.364C20.8185 20.5345 20.663 20.7019 20.499 20.7963C20.3009 20.9103 20.0834 20.9262 19.6483 20.9581C19.2691 20.9859 18.8862 21 18.5 21Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+          <a href="tel:+74852777111" class="link-dark link-secondary fw-bold">
+            <button
+              class="btn rounded-3 btn-orange btn-m shadow-sm"
+              style="width: 250px"
+            >
+              <span
+                ><svg
+                  width="30px"
+                  height="30px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M14.05 6C15.0268 6.19057 15.9244 6.66826 16.6281 7.37194C17.3318 8.07561 17.8095 8.97326 18 9.95M14.05 2C16.0793 2.22544 17.9716 3.13417 19.4163 4.57701C20.8609 6.01984 21.7721 7.91101 22 9.94M18.5 21C9.93959 21 3 14.0604 3 5.5C3 5.11378 3.01413 4.73086 3.04189 4.35173C3.07375 3.91662 3.08968 3.69907 3.2037 3.50103C3.29814 3.33701 3.4655 3.18146 3.63598 3.09925C3.84181 3 4.08188 3 4.56201 3H7.37932C7.78308 3 7.98496 3 8.15802 3.06645C8.31089 3.12515 8.44701 3.22049 8.55442 3.3441C8.67601 3.48403 8.745 3.67376 8.88299 4.05321L10.0491 7.26005C10.2096 7.70153 10.2899 7.92227 10.2763 8.1317C10.2643 8.31637 10.2012 8.49408 10.0942 8.64506C9.97286 8.81628 9.77145 8.93713 9.36863 9.17882L8 10C9.2019 12.6489 11.3501 14.7999 14 16L14.8212 14.6314C15.0629 14.2285 15.1837 14.0271 15.3549 13.9058C15.5059 13.7988 15.6836 13.7357 15.8683 13.7237C16.0777 13.7101 16.2985 13.7904 16.74 13.9509L19.9468 15.117C20.3262 15.255 20.516 15.324 20.6559 15.4456C20.7795 15.553 20.8749 15.6891 20.9335 15.842C21 16.015 21 16.2169 21 16.6207V19.438C21 19.9181 21 20.1582 20.9007 20.364C20.8185 20.5345 20.663 20.7019 20.499 20.7963C20.3009 20.9103 20.0834 20.9262 19.6483 20.9581C19.2691 20.9859 18.8862 21 18.5 21Z"
+                      stroke="#000000"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </g>
+                </svg>
 
-              <span class="fs-5 fw-bolder">Заказать</span>
+                <span class="fs-5 fw-bolder">Заказать</span>
               </span>
             </button>
           </a>
@@ -161,18 +163,43 @@
             "
           ></div>
           <div class="row">
-            <div class="col-lg-7 py-vh-6 mx-5 position-relative" data-aos="fade-right">
-              <a href="tel:+74852777111" ><h1 class="display-1 fw-bold fs-1 mt-5"><span class="fst-italic fs-5">(4852)</span><span class="fst-italic">&nbsp;777-111</span></h1></a>
-              <p class="lead">Для тех, кто ценит свое время и экономит ресурсы!</p>
-              <a href="#popup-box" class="btn btn-dark btn-l fs-4 me-3 rounded-3 my-5 shadow-sm"
+            <div
+              class="col-lg-7 py-vh-6 mx-5 position-relative"
+              data-aos="fade-right"
+            >
+              <a href="tel:+74852777111"
+                ><h1 class="display-1 fw-bold fs-1 mt-5">
+                  <span class="fst-italic fs-5">(4852)</span
+                  ><span class="fst-italic">&nbsp;777-111</span>
+                </h1></a
+              >
+              <p class="lead">
+                Для тех, кто ценит свое время и экономит ресурсы!
+              </p>
+              <a
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#feedback"
+                class="btn btn-dark btn-l fs-4 me-3 rounded-3 my-5 shadow-sm"
                 >Оставить заявку</a
+              >
+
+              <a
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#online"
+                class="btn btn-orange btn-l fs-4 me-3 rounded-3 my-5 shadow-sm"
+                >Заказать Онлайн</a
               >
             </div>
           </div>
         </div>
       </div>
 
-      <div class="py-vh-5 w-100 overflow-hidden bg-light bg-gradient" id="services">
+      <div
+        class="py-vh-5 w-100 overflow-hidden bg-light bg-gradient"
+        id="services"
+      >
         <div class="container">
           <div class="row d-flex aalign-items-stretch justify-content-evenly">
             <div
@@ -180,13 +207,63 @@
               data-aos="fade-up"
               data-aos-delay="200"
             >
-            <svg width="84px" height="84px" viewBox="-1.5 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="icomoon-ignore"> </g> <path d="M16.784 10.755c-1.737 0-3.147 1.409-3.147 3.147s1.41 3.148 3.147 3.148c1.739 0 3.147-1.409 3.147-3.148s-1.409-3.147-3.147-3.147zM16.784 16c-1.156 0-2.098-0.941-2.098-2.099s0.941-2.098 2.098-2.098c1.158 0 2.098 0.941 2.098 2.098s-0.941 2.099-2.098 2.099z" fill="#000000"> </path> <path d="M4.196 6.034v15.735h25.176v-15.735h-25.176zM28.324 9.583v11.137h-23.078v-13.637h23.078v2.5z" fill="#000000"> </path> <path d="M23.746 22.819h-20.599v-14.686h-1.049v15.735h25.177v-1.049h-1.049z" fill="#000000"> </path> <path d="M21.648 24.917h-20.599v-14.686h-1.049v15.735h25.177v-1.049h-1.049z" fill="#000000"> </path> <path d="M6.819 8.165h3.147v1.049h-3.147v-1.049z" fill="#000000"> </path> <path d="M6.819 18.623h3.147v1.049h-3.147v-1.049z" fill="#000000"> </path> <path d="M23.603 8.165h3.147v1.049h-3.147v-1.049z" fill="#000000"> </path> <path d="M23.603 18.623h3.147v1.049h-3.147v-1.049z" fill="#000000"> </path> </g></svg>
+              <svg
+                width="84px"
+                height="84px"
+                viewBox="-1.5 0 32 32"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="#000000"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g id="icomoon-ignore"></g>
+                  <path
+                    d="M16.784 10.755c-1.737 0-3.147 1.409-3.147 3.147s1.41 3.148 3.147 3.148c1.739 0 3.147-1.409 3.147-3.148s-1.409-3.147-3.147-3.147zM16.784 16c-1.156 0-2.098-0.941-2.098-2.099s0.941-2.098 2.098-2.098c1.158 0 2.098 0.941 2.098 2.098s-0.941 2.099-2.098 2.099z"
+                    fill="#000000"
+                  ></path>
+                  <path
+                    d="M4.196 6.034v15.735h25.176v-15.735h-25.176zM28.324 9.583v11.137h-23.078v-13.637h23.078v2.5z"
+                    fill="#000000"
+                  ></path>
+                  <path
+                    d="M23.746 22.819h-20.599v-14.686h-1.049v15.735h25.177v-1.049h-1.049z"
+                    fill="#000000"
+                  ></path>
+                  <path
+                    d="M21.648 24.917h-20.599v-14.686h-1.049v15.735h25.177v-1.049h-1.049z"
+                    fill="#000000"
+                  ></path>
+                  <path
+                    d="M6.819 8.165h3.147v1.049h-3.147v-1.049z"
+                    fill="#000000"
+                  ></path>
+                  <path
+                    d="M6.819 18.623h3.147v1.049h-3.147v-1.049z"
+                    fill="#000000"
+                  ></path>
+                  <path
+                    d="M23.603 8.165h3.147v1.049h-3.147v-1.049z"
+                    fill="#000000"
+                  ></path>
+                  <path
+                    d="M23.603 18.623h3.147v1.049h-3.147v-1.049z"
+                    fill="#000000"
+                  ></path>
+                </g>
+              </svg>
               <h3 class="py-3 border-top border-dark">
                 Предварительный расчет стоимости
               </h3>
               <p>
-                Мы готовы предложить Вам свои услуги в любое время дня и ночи, в любой 
-день недели. Звоните! Мы всегда будем рады!
+                Мы готовы предложить Вам свои услуги в любое время дня и ночи, в
+                любой день недели. Звоните! Мы всегда будем рады!
               </p>
               <a href="#" class="link-fancy">Подробнее...</a>
             </div>
@@ -196,13 +273,45 @@
               data-aos="fade-up"
               data-aos-delay="400"
             >
-            <svg width="84px" height="84px" viewBox="-1.92 -1.92 27.84 27.84" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="12" cy="12" r="10" stroke="#000000" stroke-width="0.696"></circle> <path d="M9 14H12" stroke="#000000" stroke-width="0.696" stroke-linecap="round"></path> <path d="M10 12V8.2C10 8.0142 10 7.9213 10.0123 7.84357C10.0801 7.41567 10.4157 7.08008 10.8436 7.01231C10.9213 7 11.0142 7 11.2 7H13.5C14.8807 7 16 8.11929 16 9.5C16 10.8807 14.8807 12 13.5 12H10ZM10 12V17M10 12H9" stroke="#000000" stroke-width="0.696" stroke-linecap="round"></path> </g></svg>
-              <h3 class="py-3 border-top border-dark">
-                Доступная цена
-              </h3>
+              <svg
+                width="84px"
+                height="84px"
+                viewBox="-1.92 -1.92 27.84 27.84"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="#000000"
+                    stroke-width="0.696"
+                  ></circle>
+                  <path
+                    d="M9 14H12"
+                    stroke="#000000"
+                    stroke-width="0.696"
+                    stroke-linecap="round"
+                  ></path>
+                  <path
+                    d="M10 12V8.2C10 8.0142 10 7.9213 10.0123 7.84357C10.0801 7.41567 10.4157 7.08008 10.8436 7.01231C10.9213 7 11.0142 7 11.2 7H13.5C14.8807 7 16 8.11929 16 9.5C16 10.8807 14.8807 12 13.5 12H10ZM10 12V17M10 12H9"
+                    stroke="#000000"
+                    stroke-width="0.696"
+                    stroke-linecap="round"
+                  ></path>
+                </g>
+              </svg>
+              <h3 class="py-3 border-top border-dark">Доступная цена</h3>
               <p>
-                Мы постоянно анализируем цены конкурентов и предлагаем Вам наилучшие 
-условия.
+                Мы постоянно анализируем цены конкурентов и предлагаем Вам
+                наилучшие условия.
               </p>
               <a href="#" class="link-fancy">Подробнее...</a>
             </div>
@@ -212,13 +321,52 @@
               data-aos="fade-up"
               data-aos-delay="600"
             >
-            <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-4.8 -4.8 69.60 69.60" xml:space="preserve" width="84px" height="84px" stroke="#000000" stroke-width="0.0006000000000000001"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M30,25v-2h-6.1c-0.5-3.4-3.4-6-6.9-6H7c-3.9,0-7,3.1-7,7v14h2V24c0-2.8,2.2-5,5-5h1v8H7v-2H5v34c0,0.6,0.4,1,1,1h6h6 c0.6,0,1-0.4,1-1V25h-2v2h-1v-8h1c2.8,0,5,2.2,5,5c0,0.6,0.4,1,1,1H30z M17,58h-4V40h2v-2H9v2h2v18H7V29h10V58z M14,27h-4v-8h4V27 z"></path> <path d="M6,11c0,2.8,2.2,5,5,5h2c2.8,0,5-2.2,5-5V9h2V7h-2V5c0-2.8-2.2-5-5-5h-2C8.2,0,6,2.2,6,5v2H4v2h2V11z M16,11 c0,1.7-1.3,3-3,3h-2c-1.7,0-3-1.3-3-3V9h8V11z M8,5c0-1.7,1.3-3,3-3v3h2V2c1.7,0,3,1.3,3,3v2H8V5z"></path> <rect x="9" y="32" width="2" height="2"></rect> <rect x="13" y="32" width="2" height="2"></rect> <path d="M59,20H49h-6H33c-0.6,0-1,0.4-1,1v21h-1h-6c-0.6,0-1,0.4-1,1v16c0,0.6,0.4,1,1,1h16h18c0.6,0,1-0.4,1-1V43V21 C60,20.4,59.6,20,59,20z M48,22v6h-4v-6H48z M34,22h8v7c0,0.6,0.4,1,1,1h6c0.6,0,1-0.4,1-1v-7h8v20h-6h-4h-7h-6h-1V22z M49,44h2v4 h-2V44z M33,44h1v4h-2v-4H33z M26,44h4v5c0,0.6,0.4,1,1,1h4c0.6,0,1-0.4,1-1v-5h4v14H26V44z M58,58H42V44h5v5c0,0.6,0.4,1,1,1h4 c0.6,0,1-0.4,1-1v-5h5V58z"></path> <rect x="23" y="28" width="7" height="2"></rect> <rect x="28" y="53" width="2" height="2"></rect> <rect x="32" y="53" width="2" height="2"></rect> <rect x="44" y="53" width="2" height="2"></rect> <rect x="48" y="53" width="2" height="2"></rect> <rect x="37" y="34" width="4" height="2"></rect> <rect x="37" y="38" width="8" height="2"></rect> </g> </g> </g></svg>
-              <h3 class="py-3 border-top border-dark">
-                Грузчики
-              </h3>
-              <p>
-                Дополнительная услуга грузчиков
-              </p>
+              <svg
+                fill="#000000"
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="-4.8 -4.8 69.60 69.60"
+                xml:space="preserve"
+                width="84px"
+                height="84px"
+                stroke="#000000"
+                stroke-width="0.0006000000000000001"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <g>
+                      <path
+                        d="M30,25v-2h-6.1c-0.5-3.4-3.4-6-6.9-6H7c-3.9,0-7,3.1-7,7v14h2V24c0-2.8,2.2-5,5-5h1v8H7v-2H5v34c0,0.6,0.4,1,1,1h6h6 c0.6,0,1-0.4,1-1V25h-2v2h-1v-8h1c2.8,0,5,2.2,5,5c0,0.6,0.4,1,1,1H30z M17,58h-4V40h2v-2H9v2h2v18H7V29h10V58z M14,27h-4v-8h4V27 z"
+                      ></path>
+                      <path
+                        d="M6,11c0,2.8,2.2,5,5,5h2c2.8,0,5-2.2,5-5V9h2V7h-2V5c0-2.8-2.2-5-5-5h-2C8.2,0,6,2.2,6,5v2H4v2h2V11z M16,11 c0,1.7-1.3,3-3,3h-2c-1.7,0-3-1.3-3-3V9h8V11z M8,5c0-1.7,1.3-3,3-3v3h2V2c1.7,0,3,1.3,3,3v2H8V5z"
+                      ></path>
+                      <rect x="9" y="32" width="2" height="2"></rect>
+                      <rect x="13" y="32" width="2" height="2"></rect>
+                      <path
+                        d="M59,20H49h-6H33c-0.6,0-1,0.4-1,1v21h-1h-6c-0.6,0-1,0.4-1,1v16c0,0.6,0.4,1,1,1h16h18c0.6,0,1-0.4,1-1V43V21 C60,20.4,59.6,20,59,20z M48,22v6h-4v-6H48z M34,22h8v7c0,0.6,0.4,1,1,1h6c0.6,0,1-0.4,1-1v-7h8v20h-6h-4h-7h-6h-1V22z M49,44h2v4 h-2V44z M33,44h1v4h-2v-4H33z M26,44h4v5c0,0.6,0.4,1,1,1h4c0.6,0,1-0.4,1-1v-5h4v14H26V44z M58,58H42V44h5v5c0,0.6,0.4,1,1,1h4 c0.6,0,1-0.4,1-1v-5h5V58z"
+                      ></path>
+                      <rect x="23" y="28" width="7" height="2"></rect>
+                      <rect x="28" y="53" width="2" height="2"></rect>
+                      <rect x="32" y="53" width="2" height="2"></rect>
+                      <rect x="44" y="53" width="2" height="2"></rect>
+                      <rect x="48" y="53" width="2" height="2"></rect>
+                      <rect x="37" y="34" width="4" height="2"></rect>
+                      <rect x="37" y="38" width="8" height="2"></rect>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <h3 class="py-3 border-top border-dark">Грузчики</h3>
+              <p>Дополнительная услуга грузчиков</p>
               <a href="#" class="link-fancy">Подробнее...</a>
             </div>
 
@@ -227,13 +375,30 @@
               data-aos="fade-up"
               data-aos-delay="600"
             >
-            <svg fill="#000000" width="84px" height="84px" viewBox="-4 -4 58.00 58.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="#000000" stroke-width="0.0005"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M2.84375 13C1.285156 13 0 14.285156 0 15.84375L0 42C0 43.660156 1.339844 45 3 45L7.09375 45C7.570313 47.835938 10.035156 50 13 50C15.964844 50 18.429688 47.835938 18.90625 45L28.15625 45C28.894531 45 29.554688 44.6875 30.0625 44.21875C30.582031 44.675781 31.246094 44.992188 32 45L33.09375 45C33.570313 47.835938 36.035156 50 39 50C42.300781 50 45 47.300781 45 44C45 40.699219 42.300781 38 39 38C36.035156 38 33.570313 40.164063 33.09375 43L32 43C31.8125 43 31.527344 42.871094 31.3125 42.65625C31.097656 42.441406 31 42.183594 31 42L31 23C31 22.625 31.625 22 32 22L40 22C40.785156 22 41.890625 22.839844 42.65625 23.75C42.664063 23.761719 42.679688 23.769531 42.6875 23.78125L42.84375 24L38 24C36.40625 24 35 25.289063 35 27L35 31C35 31.832031 35.375 32.5625 35.90625 33.09375C36.4375 33.625 37.167969 34 38 34L48 34L48 42C48 42.375 47.375 43 47 43L45 43L45 45L47 45C48.660156 45 50 43.660156 50 42L50 32.375C50 30.085938 48.40625 28.0625 48.40625 28.0625L48.375 28.0625L44.25 22.5625L44.25 22.53125L44.21875 22.5C43.296875 21.386719 41.914063 20 40 20L32 20C31.644531 20 31.316406 20.074219 31 20.1875L31 15.90625C31 14.371094 29.789063 13 28.1875 13 Z M 2.84375 15L28.1875 15C28.617188 15 29 15.414063 29 15.90625L29 42.15625C29 42.625 28.628906 43 28.15625 43L18.90625 43C18.429688 40.164063 15.964844 38 13 38C10.035156 38 7.570313 40.164063 7.09375 43L3 43C2.625 43 2 42.371094 2 42L2 15.84375C2 15.375 2.367188 15 2.84375 15 Z M 38 26L44.34375 26L46.78125 29.25C46.78125 29.25 47.6875 30.800781 47.875 32L38 32C37.832031 32 37.5625 31.875 37.34375 31.65625C37.125 31.4375 37 31.167969 37 31L37 27C37 26.496094 37.59375 26 38 26 Z M 13 40C15.222656 40 17 41.777344 17 44C17 46.222656 15.222656 48 13 48C10.777344 48 9 46.222656 9 44C9 41.777344 10.777344 40 13 40 Z M 39 40C41.222656 40 43 41.777344 43 44C43 46.222656 41.222656 48 39 48C36.777344 48 35 46.222656 35 44C35 41.777344 36.777344 40 39 40Z"></path></g></svg>
-              <h3 class="py-3 border-top border-dark">
-                Быстро
-              </h3>
-              <p>
-                На смене до 100 грузовых автомобилей
-              </p>
+              <svg
+                fill="#000000"
+                width="84px"
+                height="84px"
+                viewBox="-4 -4 58.00 58.00"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                stroke="#000000"
+                stroke-width="0.0005"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M2.84375 13C1.285156 13 0 14.285156 0 15.84375L0 42C0 43.660156 1.339844 45 3 45L7.09375 45C7.570313 47.835938 10.035156 50 13 50C15.964844 50 18.429688 47.835938 18.90625 45L28.15625 45C28.894531 45 29.554688 44.6875 30.0625 44.21875C30.582031 44.675781 31.246094 44.992188 32 45L33.09375 45C33.570313 47.835938 36.035156 50 39 50C42.300781 50 45 47.300781 45 44C45 40.699219 42.300781 38 39 38C36.035156 38 33.570313 40.164063 33.09375 43L32 43C31.8125 43 31.527344 42.871094 31.3125 42.65625C31.097656 42.441406 31 42.183594 31 42L31 23C31 22.625 31.625 22 32 22L40 22C40.785156 22 41.890625 22.839844 42.65625 23.75C42.664063 23.761719 42.679688 23.769531 42.6875 23.78125L42.84375 24L38 24C36.40625 24 35 25.289063 35 27L35 31C35 31.832031 35.375 32.5625 35.90625 33.09375C36.4375 33.625 37.167969 34 38 34L48 34L48 42C48 42.375 47.375 43 47 43L45 43L45 45L47 45C48.660156 45 50 43.660156 50 42L50 32.375C50 30.085938 48.40625 28.0625 48.40625 28.0625L48.375 28.0625L44.25 22.5625L44.25 22.53125L44.21875 22.5C43.296875 21.386719 41.914063 20 40 20L32 20C31.644531 20 31.316406 20.074219 31 20.1875L31 15.90625C31 14.371094 29.789063 13 28.1875 13 Z M 2.84375 15L28.1875 15C28.617188 15 29 15.414063 29 15.90625L29 42.15625C29 42.625 28.628906 43 28.15625 43L18.90625 43C18.429688 40.164063 15.964844 38 13 38C10.035156 38 7.570313 40.164063 7.09375 43L3 43C2.625 43 2 42.371094 2 42L2 15.84375C2 15.375 2.367188 15 2.84375 15 Z M 38 26L44.34375 26L46.78125 29.25C46.78125 29.25 47.6875 30.800781 47.875 32L38 32C37.832031 32 37.5625 31.875 37.34375 31.65625C37.125 31.4375 37 31.167969 37 31L37 27C37 26.496094 37.59375 26 38 26 Z M 13 40C15.222656 40 17 41.777344 17 44C17 46.222656 15.222656 48 13 48C10.777344 48 9 46.222656 9 44C9 41.777344 10.777344 40 13 40 Z M 39 40C41.222656 40 43 41.777344 43 44C43 46.222656 41.222656 48 39 48C36.777344 48 35 46.222656 35 44C35 41.777344 36.777344 40 39 40Z"
+                  ></path>
+                </g>
+              </svg>
+              <h3 class="py-3 border-top border-dark">Быстро</h3>
+              <p>На смене до 100 грузовых автомобилей</p>
               <a href="#" class="link-fancy">Подробнее...</a>
             </div>
           </div>
@@ -308,9 +473,12 @@
                   >Правила грузоперевозок</a
                 >
 
-                <a href="https://saby.ru/edo"><img src="https://saby.ru/cdn/SbisRuCDN/1.0.6/images/edo/sbis-receive-240-80.png" width="240" height="80" /></a>
-
-
+                <a href="https://saby.ru/edo"
+                  ><img
+                    src="https://saby.ru/cdn/SbisRuCDN/1.0.6/images/edo/sbis-receive-240-80.png"
+                    width="240"
+                    height="80"
+                /></a>
               </li>
             </ul>
           </div>
@@ -319,48 +487,128 @@
 
       <div class="container text-center py-3 small">
         2024
-        <a href="#" class="link-fancy" target="_blank"
-          >777-111.ru</a
-        >
-
+        <a href="#" class="link-fancy" target="_blank">777-111.ru</a>
       </div>
     </footer>
 
-
-
-
-    <div id="popup-box" class="modal">
-      <div class="content">
-        <div class="m-auto align-items-center">
-              <span class="fs-5">
-                  Оставить заявку на обратный звонок
-              </span>
-              <!-- Создаём форму и указываем её обработчик и метод -->
-              <form action="post.php" method="post" name="form" >
-              <!-- Поле ввода имени -->
-              <input name="name" class="form-control" type="text" placeholder="Ваше имя" />
-              <br>
-              <!-- Поле ввода почты  -->
-              <input name="phone" class="form-control" type="text" placeholder="Ваш телефон" />
-              <br>
-              <!-- Кнопка с надписью «Отправить», которая запускает обработчик формы -->
-              <input class="btn btn-primary rounded-3 shadow-sm" type="submit" value="Отправить" />
-              </form>
-          
+    <div
+      class="modal fade"
+      id="online"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Онлайн заказ</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- Taxsee order form -->
+            <div
+              id="taxsee-form"
+              style="max-width: 540px; margin: 0 auto"
+            ></div>
+            <script type="application/javascript">
+              (function (w, d, n, s) {
+                s = d.createElement("script");
+                s.type = "text/javascript";
+                s.async = 1;
+                s.src = "//client.taxsee.com/js/embed.form.js?v=1686053533";
+                (
+                  document.getElementsByTagName("HEAD")[0] ||
+                  document.getElementsByTagName("BODY")[0]
+                ).appendChild(s);
+                w[n] =
+                  w[n] ||
+                  function (p, v) {
+                    (w[n].p = w[n].p || {})[p] = v;
+                  };
+                taxsee(
+                  "id",
+                  "yFL33BWu8yOEhqH0C0bV8L74dZv9wv+zXEYVdrp1txy2vSeqmaLkE+0XzhegozWUogK6nuNqYszJKPJ3JY6l3YBHoxQ0cMOR+tPeS585VDA="
+                );
+                taxsee("org", "taxi1");
+                taxsee("theme", "taxsee");
+                taxsee("country", "RU");
+                taxsee("base", 338);
+                taxsee("language", "ru-RU");
+                taxsee("container", "taxsee-form");
+                taxsee("autoresize", true);
+                taxsee("opacity", "1");
+                taxsee("payment", false);
+                taxsee("debug", false);
+                taxsee("withMap", "0");
+              })(window, document, "taxsee");
+            </script>
+            <!-- /Taxsee order form -->
+          </div>
         </div>
-          <a href="#" style=" position: absolute; top: 10px; right: 10px; color: #000000; font-size: 30px; text-decoration: none;">&times;</a>
       </div>
     </div>
 
+    <div
+      class="modal fade"
+      id="feedback"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Оставить заявку на обратный звонок
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- Создаём форму и указываем её обработчик и метод -->
+            <form action="post.php" method="post" name="form">
+              <!-- Поле ввода имени -->
+              <input
+                name="name"
+                class="form-control"
+                type="text"
+                placeholder="Ваше имя"
+              />
+              <br />
+              <!-- Поле ввода почты  -->
+              <input
+                name="phone"
+                class="form-control"
+                type="text"
+                placeholder="Ваш телефон"
+              />
+              <br />
+              <!-- Кнопка с надписью «Отправить», которая запускает обработчик формы -->
+              <input
+                class="btn btn-primary rounded-3 shadow-sm"
+                type="submit"
+                value="Отправить"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
-
-
-
-
-
+    <div id="feedback" style="display: none; max-width: 400px"></div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/aos.js"></script>
+
     <script>
       AOS.init({
         duration: 800, // values from 0 to 3000, with step 50ms
@@ -388,35 +636,6 @@
 
         console.log(scrollpos);
       });
-
-      
-
-      
     </script>
-
-<script type="text/javascript" async="async">
-  (function () {
-    function init() {
-      const scr = document.createElement("script");
-      scr.type = "text/javascript";
-      scr.async = "async";
-      scr.src =
-        "//cdn.qform.io/forms.js?v=" + new Date().getTime() / 1000;
-      const scrInsert = document.getElementsByTagName("script")[0];
-      scrInsert.parentNode.insertBefore(scr, scrInsert);
-    }
-    const d = document;
-    const w = window;
-    if (d.readyState === "interactive") {
-      init();
-    } else {
-      if (w.attachEvent) {
-        w.attachEvent("onload", init);
-      } else {
-        w.addEventListener("DOMContentLoaded", init, false);
-      }
-    }
-  })();
-</script>
   </body>
 </html>
