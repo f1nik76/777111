@@ -22,19 +22,28 @@
     />
 
     <style>
-      .btn-orange {
-        background-color: rgb(247, 243, 3);
-        color: hsl(0, 0%, 0%);
+      .btn-orange{
+      background-color: rgb(247, 243, 3);
+      color: hsl(0, 0%, 0%);
+      border: none;
       }
-      .btn-orange:hover {
-        background-color: rgb(255, 255, 0);
-        color: hsl(0, 0%, 0%);
+      .btn-orange:visited{
+      background-color: rgb(247, 243, 3);
+      color: hsl(0, 0%, 0%);
+      border: none;
       }
-      .btn-orange:active {
-        background-color: rgb(255, 255, 85);
-        color: hsl(0, 0%, 0%);
+      .btn-orange:hover{
+      background-color: rgb(255, 255, 0);
+      color: hsl(0, 0%, 0%);
+      border: none;
+      }
+      .btn-orange:active{
+      background-color: rgb(255, 255, 85);
+      color: hsl(0, 0%, 0%);
+      border: none;
       }
     </style>
+
   </head>
 
   <body data-bs-spy="scroll" data-bs-target="#navScroll">
@@ -72,7 +81,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-6 fw-bolder">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5 fw-bolder">
             <!--<li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -93,22 +102,13 @@
               </ul>
             </li>-->
             <li class="nav-item">
-              <a class="nav-link" href="business.html"> Бизнесу </a>
+              <a class="nav-link " href="index.html"> Главная </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="drivers.html"> Водителям </a>
+              <a class="nav-link " href="business.html"> Бизнесу </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"> Пользователям </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"> Тарифы </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"> Отзывы </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacts.html">Контакты</a>
+              <a class="nav-link " href="contacts.html">Контакты</a>
             </li>
           </ul>
           <a href="tel:+74852777111" class="link-dark link-secondary fw-bold">
@@ -156,7 +156,7 @@
             class="col-12 col-lg-8 mt-0 h-100 position-absolute top-0 end-0 bg-cover"
             data-aos="fade-left"
             style="
-              background-image: url(img/321.png);
+              background-image: url(img/a-class.jpg);
               background-size: 90% auto;
               background-repeat: no-repeat;
               background-position: right 10% bottom 0;
@@ -173,22 +173,16 @@
                   ><span class="fst-italic">&nbsp;777-111</span>
                 </h1></a
               >
-              <p class="lead">
-                Для тех, кто ценит свое время и экономит ресурсы!
+              <p class="lead fs-4">
+                Для тех, кто ценит свое время<br> и экономит ресурсы!
               </p>
-              <a
-                href="#"
-                data-bs-toggle="modal"
-                data-bs-target="#feedback"
-                class="btn btn-dark btn-l fs-4 me-3 rounded-3 my-5 shadow-sm"
-                >Оставить заявку</a
-              >
+              
 
               <a
                 href="#"
                 data-bs-toggle="modal"
                 data-bs-target="#online"
-                class="btn btn-orange btn-l fs-4 me-3 rounded-3 my-5 shadow-sm"
+                class="btn btn-orange btn-xl fs-4 me-3 rounded-3 my-5 shadow-sm"
                 >Заказать Онлайн</a
               >
             </div>
@@ -265,7 +259,7 @@
                 Мы готовы предложить Вам свои услуги в любое время дня и ночи, в
                 любой день недели. Звоните! Мы всегда будем рады!
               </p>
-              <a href="#" class="link-fancy">Подробнее...</a>
+              
             </div>
 
             <div
@@ -313,7 +307,7 @@
                 Мы постоянно анализируем цены конкурентов и предлагаем Вам
                 наилучшие условия.
               </p>
-              <a href="#" class="link-fancy">Подробнее...</a>
+              
             </div>
 
             <div
@@ -367,7 +361,7 @@
               </svg>
               <h3 class="py-3 border-top border-dark">Грузчики</h3>
               <p>Дополнительная услуга грузчиков</p>
-              <a href="#" class="link-fancy">Подробнее...</a>
+              
             </div>
 
             <div
@@ -399,7 +393,7 @@
               </svg>
               <h3 class="py-3 border-top border-dark">Быстро</h3>
               <p>На смене до 100 грузовых автомобилей</p>
-              <a href="#" class="link-fancy">Подробнее...</a>
+              
             </div>
           </div>
         </div>
@@ -479,6 +473,13 @@
                     width="240"
                     height="80"
                 /></a>
+                <br><br>
+                <a href="https://diadok.ru/"
+                  ><img
+                    src="/img/diadok.png"
+                    width="240"
+                    height="80"
+                /></a>
               </li>
             </ul>
           </div>
@@ -553,58 +554,7 @@
       </div>
     </div>
 
-    <div
-      class="modal fade"
-      id="feedback"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">
-              Оставить заявку на обратный звонок
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <!-- Создаём форму и указываем её обработчик и метод -->
-            <form action="post.php" method="post" name="form">
-              <!-- Поле ввода имени -->
-              <input
-                name="name"
-                class="form-control"
-                type="text"
-                placeholder="Ваше имя"
-              />
-              <br />
-              <!-- Поле ввода почты  -->
-              <input
-                name="phone"
-                class="form-control"
-                type="text"
-                placeholder="Ваш телефон"
-              />
-              <br />
-              <!-- Кнопка с надписью «Отправить», которая запускает обработчик формы -->
-              <input
-                class="btn btn-primary rounded-3 shadow-sm"
-                type="submit"
-                value="Отправить"
-              />
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="feedback" style="display: none; max-width: 400px"></div>
+    
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/aos.js"></script>
